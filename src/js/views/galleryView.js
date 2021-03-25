@@ -9,7 +9,7 @@ class GalleryView extends View {
 				return `
 				<div class="item">
 					<a href="${item.url}" target="_blank">
-						<img src="${item.src.medium}" alt="image" />
+						<img src="${item.src.large}" alt="image" />
 						<h3>${item.photographer}</h3>
 					</a>
 				</div>
