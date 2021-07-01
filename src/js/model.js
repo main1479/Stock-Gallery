@@ -14,7 +14,6 @@ export const getImage = async function (req , query, perPage = `per_page=${state
 		state.page = page;
 		state.photos = photos;
 		state.totalResults = total_results;
-		console.log(state);
 	} catch (err) {
 		throw err;
 	}

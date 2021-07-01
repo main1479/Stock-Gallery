@@ -22,6 +22,7 @@ const controlLoadImg = async function () {
 
 const controlSearch = async function (query) {
 	try {
+		model.state.page = 1;
 		req = 'search';
 		searchFor = query;
 		galleryView.renderSpinner();
